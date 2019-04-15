@@ -45,21 +45,12 @@
     <Content Include="Scripts\jquery-1.9.1.intellisense.js" />
     <Content Include="Scripts\jquery-1.9.1.js" />
     <Content Include="Scripts\jquery-1.9.1.min.js" />
-    <Content Include="Test\NewEmployee\Elements.xml" />
-    <Content Include="Test\NewEmployee\NewEmployeeInstance\Elements.xml" />
-    <Content Include="Test\NewEmployee\Schema.xml" />
     <None Include="packages.config" />
     <None Include="Pages\SharePointProjectItem.spdata">
       <SharePointProjectItemId>{aeb32325-d0b5-4ae6-840d-63e14a616871}</SharePointProjectItemId>
     </None>
     <Content Include="Pages\Elements.xml" />
     <Content Include="Pages\Default.aspx" />
-    <None Include="Test\NewEmployee\NewEmployeeInstance\SharePointProjectItem.spdata">
-      <SharePointProjectItemId>{48dfc666-c7d7-4cda-8340-a8930243747f}</SharePointProjectItemId>
-    </None>
-    <None Include="Test\NewEmployee\SharePointProjectItem.spdata">
-      <SharePointProjectItemId>{85865b9e-0286-4189-917d-ff209b3a7162}</SharePointProjectItemId>
-    </None>
   </ItemGroup>
   <ItemGroup>
     <None Include="Scripts\jquery-1.9.1.min.map" />
@@ -103,6 +94,9 @@
     <AppManifestFile Include="AppManifest.xml">
       <SubType>Designer</SubType>
     </AppManifestFile>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Test\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <PropertyGroup>
